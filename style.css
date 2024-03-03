@@ -42,9 +42,7 @@ body {
 }
 
 main {
-    margin-top: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
+   margin: 15px auto;
 }
 
 .section {
@@ -61,7 +59,6 @@ main {
 
 .text h1 {
     font-size: 4em;
-    font-weight: bolder;
     margin-bottom: 14px;
 }
 
@@ -71,12 +68,6 @@ main {
 
 .text p {
     font-size: 18px;
-}
-
-.video {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
 }
 
 .video video {
@@ -103,9 +94,7 @@ main {
     }
 
     .button button {
-        margin-right: 0;
         margin-top: 5px;
-        width: 100%;
     }
 
     .section {
@@ -118,16 +107,12 @@ main {
     }
 
     .text h1 {
-        font-size: 2.5em;
+        padding-top: auto;
     }
 
     .video {
         height: auto;
         width: auto;
-    }
-
-    .Order {
-        margin-top: 5px;
     }
 }
 
